@@ -6,9 +6,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>Eat Elite</title>
   <style>
-  </style>
-  
-   
+  </style>  
 </head>
 <body>
   <header>
@@ -104,33 +102,36 @@
         <h3>Cookies</h3>
         <img  class="menu-image"src="cookies.jpg" alt="cookies">
         <a class="link" href="#order">Order Now</a>
-
+       
       </div>
-    
       </div>
+      <button><a href="order.html">Prices</a></button>
     </div>
     </section>
 
-
+<form>
 
     <section class="order" id="order">
       <h1>Order your food </h1>
-      <p>Here you should write your informations</p>
+      <p>Here you should write your information</p>
       <form>
-        <label>Your adress:</label>
-        <input type="text" name="adress" placeholder="Your adress"><br>
+        <label>Your address:</label>
+        <input type="text" name="address" placeholder="Your address"><br>
         <label>Your phone number:</label>
         <input type="text" name="number" placeholder="Your phone number"><br>
         <label>Your order:</label>
-        <input type="text" name="order" placeholder="food name"><br>
+        <input type="text" name="order" placeholder="Food name"><br>
         <label>Number of meals:</label>
-        <input type="number" name="number" placeholder="type the number"><br>
-        <button><a href="order.html">order</a></button>
-          
+        <input type="number" name="number-of-meals" placeholder="Type the number"><br>
+        <button class="confirm-button" id="confirmButton">Confirm Order</button>
+      </form>
+    </section>
+    
         
     </form>
-    </section>
+   
     <section class="thechefs" id="thechefs">
+      <br><br><br>
       <div>
         <h1>Meet our Michelin Chefs</h1>
         <p>Discover the Culinary Masters Behind Our Exceptional Dishes
@@ -174,5 +175,7 @@
     <a href="#home">Go to top</a>
     <p>&copy; 2023 My commerce website. All rights reserved.</p>
   </footer>
+  <script src="project.js"></script>
+
 </body>
 </html>

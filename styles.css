@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 
-html {
+body {
   scroll-behavior: smooth;
 }
 
@@ -261,3 +261,155 @@ footer a {
   }
 }
 
+button {
+  background-color: #abb617; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px; 
+  border-radius: 5px; 
+  margin-top: 10px;
+}
+
+
+button a {
+  color: white; 
+  text-decoration: none; 
+}
+
+button:hover {
+  background-color: #c78812; 
+}
+label{
+  font-style: italic;
+  font-weight: bold;
+  text-align: start;
+}
+
+/* styles.css */
+
+/* Your original CSS... */
+
+/* Culinary color scheme styles */
+body {
+  background-color: #fdf7f2;
+}
+
+/* Header and Navigation styles */
+header nav {
+  background-color: #f9c922;
+}
+
+/* Text color styles */
+h1, h2, h3, h4, h5, h6, p {
+  color: #38220f;
+}
+
+/* Call-to-Action Button styles */
+button, .confirm-button {
+  background-color: #ff7d00;
+}
+
+/* Menu and Chef Section styles */
+#menu, .thechefs {
+  background-color: #f9f4eb;
+}
+
+/* Footer and Contact styles */
+footer {
+  background-color: #422717;
+}
+
+/* Link styles in Footer and Contact */
+footer a {
+  color: #fddb3a;
+}
+
+/* styles.css */
+
+/* Your original CSS... */
+
+/* Culinary color scheme styles */
+body {
+  background-color: #fdf7f2;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and Navigation styles */
+header nav {
+  background-color: #f9c922;
+}
+
+/* Text color styles */
+h1, h2, h3, h4, h5, h6, p {
+  color: #38220f;
+}
+
+/* Call-to-Action Button styles */
+button, .confirm-button {
+  background-color: #ff7d00;
+}
+
+/* Menu and Chef Section styles */
+#menu, .thechefs {
+  background-color: #f9f4eb;
+}
+
+/* Footer and Contact styles */
+footer {
+  background-color: #422717;
+}
+
+/* Link styles in Footer and Contact */
+footer a {
+  color: #fddb3a;
+}
+
+/* Improved form styles */
+form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button.confirm-button {
+  background-color: #ff7d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form button.confirm-button:hover {
+  background-color: #c78812;
+}
+
+/* ... Rest of your original CSS ... */
+
+
+/* ... Additional styles ... */
